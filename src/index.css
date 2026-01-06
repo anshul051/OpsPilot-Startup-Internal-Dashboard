@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* 1️⃣ Raw design tokens */
+:root {
+  --body-bg: 9 7 23;
+  --button-bg: 79 73 227;
+  --components-bg: 23 23 37;
+}
+
+/* 2️⃣ Expose them to Tailwind */
+@theme {
+  --color-body: rgb(var(--body-bg) / <alpha-value>);
+  --color-button: rgb(var(--button-bg) / <alpha-value>);
+  --color-components: rgb(var(--components-bg) / <alpha-value>);
+}
+
+body {
+  background-color: rgb(var(--body-bg));
+}
