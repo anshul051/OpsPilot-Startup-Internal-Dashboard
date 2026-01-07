@@ -1,11 +1,11 @@
-import React from 'react'
+import Sidebar from "./components/Sidebar";
 
 const App = () => {
   return (
-    <div className='w-full h-screen flex items-center justify-center '>
-      
+    <div className="w-full min-h-screen flex">
+      <Sidebar />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
