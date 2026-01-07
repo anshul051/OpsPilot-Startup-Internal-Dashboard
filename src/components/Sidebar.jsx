@@ -72,7 +72,7 @@ const Sidebar = () => {
       </nav>
 
         {/* Light/Dark Mode toggle */}
-      <div className="bg-gray-700 w-full h-5 mt-6 rounded-full flex items-center justify-center gap-5 text-white py-5 ">
+      <div className="bg-gray-700 w-full h-5 mt-5 rounded-full flex items-center justify-center gap-5 text-white py-5 ">
         <button className="flex gap-2 cursor-pointer">
          <Sun /> Light
         </button>
